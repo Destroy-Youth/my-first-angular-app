@@ -8,6 +8,7 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { UserNameComponent } from './user-name/user-name.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { UserNameComponent } from './user-name/user-name.component';
     ServerComponent,
     ServersComponent,
     UserNameComponent,
+    DetailsComponent,
 
   ],
   imports: [
