@@ -1,13 +1,1 @@
-<div class="col">
-  <p>The server {{id}} is {{status}}</p>
-  <p>{{serverCreationStatus}}</p>
-  <input type="text" class="form-control" [(ngModel)]="serverName">
-  <p>{{serverName}}</p>
-  <button class="btn btn-primary" (click)="onCreateServer()" [disabled]="!allowAddServer">Add server</button>
-
-  <!-- Task 2: Databinding and eventbinding -->
-  <input type="text" class="form-control" [(ngModel)]="userName">
-  <p> {{userName}} </p>
-  <button class="btn btn-danger" (click)="deleteUserName()" [disabled]="!userName">Delete username</button>
-
-</div>
+<p>The server {{id}} is {{status}}</p>

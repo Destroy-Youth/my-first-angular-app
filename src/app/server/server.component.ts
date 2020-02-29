@@ -9,27 +9,12 @@ export class ServerComponent implements OnInit {
 
   id = 10;
   status = 'on standby';
-  allowAddServer = false;
-  serverCreationStatus = 'No server has been created';
-  serverName: string;
-  userName: string;
 
   constructor() {
-    setTimeout(() => {
-      this.allowAddServer = true;
-    }, 2000);
+    this.status = Math.random() > 0.5 ? 'offline' : 'online';
   }
 
   ngOnInit(): void {
-  }
-
-  onCreateServer() {
-    this.serverCreationStatus = this.serverName.concat(' server created!');
-    alert(this.serverCreationStatus);
-  }
-
-  deleteUserName() {
-    this.userName = '';
   }
 
 }

@@ -1,0 +1,6 @@
+<div class="col mt-2">
+  <!-- Task 2: Databinding and eventbinding -->
+  <input type="text" class="form-control" [(ngModel)]="userName">
+  <p> {{userName}} </p>
+  <button class="btn btn-danger" (click)="deleteUserName()" [disabled]="!userName">Delete username</button>
+</div>
