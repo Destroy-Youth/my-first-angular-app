@@ -8,7 +8,7 @@ import { SuccessAlertComponent } from './exercises/success-alert/success-alert.c
 import { ServerComponent } from './exercises/server/server.component';
 import { ServersComponent } from './exercises/servers/servers.component';
 import { UserNameComponent } from './exercises/user-name/user-name.component';
-import { DetailsComponent } from './details/details.component';
+import { DetailsComponent } from './exercises/details/details.component';
 import { ExampleExerciseComponent } from './exercises/example-exercise/example-exercise.component';
 
 
