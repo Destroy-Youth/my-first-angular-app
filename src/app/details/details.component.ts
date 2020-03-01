@@ -17,7 +17,7 @@ export class DetailsComponent implements OnInit {
 
   showAndHideDetails() {
     this.isDetailsVisible = this.isDetailsVisible ? false : true;
-    this.timesClicked.push('Clicked at '.concat(new Date));
+    this.timesClicked.push('Clicked at '.concat(Date.now().toString()));
   }
 
 }
