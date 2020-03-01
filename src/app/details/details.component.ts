@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
+  isDetailsVisible = false;
+  timesClicked = [];
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showAndHideDetails() {
+    this.isDetailsVisible = this.isDetailsVisible ? false : true;
+    this.timesClicked.push('Clicked at '.concat(new Date));
   }
 
 }

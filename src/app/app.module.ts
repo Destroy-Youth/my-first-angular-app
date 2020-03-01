@@ -9,6 +9,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { UserNameComponent } from './user-name/user-name.component';
 import { DetailsComponent } from './details/details.component';
+import { ExampleExerciseComponent } from './example-exercise/example-exercise.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { DetailsComponent } from './details/details.component';
     ServersComponent,
     UserNameComponent,
     DetailsComponent,
+    ExampleExerciseComponent,
 
   ],
   imports: [
